@@ -14,14 +14,19 @@ const Hero = () => {
         </p>
         <button
           type="button"
-          className="mt-[19px] text-[14px] text-center font-normal leading-4 text-center rounded-[20px] pt-[8px] pb-[8px] w-[170px] bg-buttonColor"
+          className="mt-[19px] text-[14px] text-center font-normal leading-4 rounded-[20px] pt-[8px] pb-[8px] w-[170px] bg-buttonColor border border-transparent hover:border-black hover:border-1 focus:outline-none focus:border-black focus:border-1"
         >
           Shop Rings
         </button>
       </div>
 
       <div>
-        <button type="button">Book Appointment</button>
+        <button
+          type="button"
+          className="mt-[19px] text-[14px] text-center font-normal leading-4 rounded-[20px] pt-[8px] pb-[8px] w-[226px] bg-buttonColor  border border-transparent hover:border-black hover:border-1 focus:outline-none focus:border-black focus:border-1"
+        >
+          Book Appointment
+        </button>
       </div>
     </div>
   );
