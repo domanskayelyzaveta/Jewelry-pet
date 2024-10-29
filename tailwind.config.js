@@ -1,9 +1,11 @@
+import { button } from "framer-motion/client";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      colors: { backgroundGreen: "#98B7A4" },
+      colors: { backgroundGreen: "#98B7A4", buttonColor: "#CFE1E7" },
       fontFamily: {
         sans: ["Roboto", "sans-serif"],
       },

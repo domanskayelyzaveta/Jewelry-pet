@@ -72,3 +72,12 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+.hero-wrapper {
+  background-image: url("../src/images/hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 727px;
+  width: 100vw;
+}
