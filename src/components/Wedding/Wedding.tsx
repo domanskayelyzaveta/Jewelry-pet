@@ -4,10 +4,12 @@ import Rings from "../../images/Rings.png";
 import CustomDesign from "../../images/CustomDesign.png";
 const Wedding = () => {
   return (
-    <>
+    <section className="pt-[49px] pb-[50px]">
       <div>
-        <p>Handcrafted Jewelry</p>
-        <h3 className="text-[43px] font-normal leading-[60px]">
+        <p className="mb-[14px] text-[14px] font-normal leading-[22px]">
+          Handcrafted Jewelry
+        </p>
+        <h3 className="text-[43px] font-normal leading-[60px] mb-[50px]">
           Wedding & Engagement
         </h3>
       </div>
@@ -30,7 +32,7 @@ const Wedding = () => {
           <p>Custom Design</p>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

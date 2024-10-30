@@ -5,7 +5,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      colors: { backgroundGreen: "#98B7A4", buttonColor: "#CFE1E7" },
+      colors: {
+        backgroundGreen: "#98B7A4",
+        buttonColor: "#CFE1E7",
+        beigeBg: "#F0C1A6",
+      },
       fontFamily: {
         sans: ["Roboto", "sans-serif"],
       },
