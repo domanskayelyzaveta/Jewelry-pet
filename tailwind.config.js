@@ -8,6 +8,7 @@ export default {
       colors: {
         backgroundGreen: "#98B7A4",
         buttonColor: "#CFE1E7",
+        buttonWhite: "#F9F6F0",
         beigeBg: "#F0C1A6",
       },
       fontFamily: {

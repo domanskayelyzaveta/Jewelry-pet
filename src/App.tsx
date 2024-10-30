@@ -4,6 +4,9 @@ import "./App.css";
 const Header = lazy(() => import("./components/Header/Header"));
 const Hero = lazy(() => import("./components/Hero/Hero"));
 const Wedding = lazy(() => import("./components/Wedding/Wedding"));
+const AnEthicalApproach = lazy(
+  () => import("./components/AnEthicalApproach/AnEthicalApproach")
+);
 
 function App() {
   return (
@@ -11,6 +14,7 @@ function App() {
       <Header />
       <Hero />
       <Wedding />
+      <AnEthicalApproach />
     </>
   );
 }
