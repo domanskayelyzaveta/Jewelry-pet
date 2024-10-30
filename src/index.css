@@ -81,3 +81,7 @@ button:focus-visible {
   height: 727px;
   width: 100vw;
 }
+
+.addition-text-style {
+  @apply text-[12px] font-normal leading-6 text-additionalTextColor;
+}

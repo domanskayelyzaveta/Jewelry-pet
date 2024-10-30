@@ -10,6 +10,7 @@ export default {
         buttonColor: "#CFE1E7",
         buttonWhite: "#F9F6F0",
         beigeBg: "#F0C1A6",
+        additionalTextColor: "#373938",
       },
       fontFamily: {
         sans: ["Roboto", "sans-serif"],

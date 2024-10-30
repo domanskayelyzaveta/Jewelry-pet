@@ -7,6 +7,9 @@ const Wedding = lazy(() => import("./components/Wedding/Wedding"));
 const AnEthicalApproach = lazy(
   () => import("./components/AnEthicalApproach/AnEthicalApproach")
 );
+const StripeSection = lazy(
+  () => import("./components/StripeSection/StripeSection")
+);
 
 function App() {
   return (
@@ -15,6 +18,7 @@ function App() {
       <Hero />
       <Wedding />
       <AnEthicalApproach />
+      <StripeSection />
     </>
   );
 }
