@@ -11,9 +11,20 @@ export default {
         buttonWhite: "#F9F6F0",
         beigeBg: "#F0C1A6",
         additionalTextColor: "#373938",
+        aboutUsBg: "#E5DFD3",
+        blueBg: "#CFE1E6",
       },
       fontFamily: {
         sans: ["Roboto", "sans-serif"],
+      },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(100)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
+      animation: {
+        marquee: "marquee 10s linear infinite",
       },
     },
     screens: {

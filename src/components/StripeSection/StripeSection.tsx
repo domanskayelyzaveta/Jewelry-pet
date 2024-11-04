@@ -1,6 +1,6 @@
 const StripeSection = () => {
   return (
-    <section className="flex flex-row pl-20 pr-20 gap-[112px]">
+    <section className="flex flex-row pl-20 pr-20 justify-around">
       {[
         "Traceable Gems",
         "Reclaimed Metals",

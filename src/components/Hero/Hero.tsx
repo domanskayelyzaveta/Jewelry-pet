@@ -4,11 +4,11 @@ const Hero = () => {
     <div className="hero-wrapper flex items-end gap-[558px] pt-0 pr-[66px] pb-[120px] pl-[131px] relative">
       <button
         type="button"
-        className="absolute top-[220px] left-0 text-[16px] flex flex-row-reverse items-center gap-2 w-[42px] pt-[20px] pb-[11px] bg-beigeBg text-white"
+        className="absolute top-[220px] left-0 text-[16px] flex flex-row-reverse items-center gap-2 w-[42px] pt-[20px] pb-[11px] bg-beigeBg text-white border border-transparent  hover:text-black"
         style={{ writingMode: "vertical-rl", textOrientation: "upright" }}
       >
         Reviews
-        <svg className="w-3 h-3 fill-white">
+        <svg className="w-3 h-3 fill-white hover:fill-black">
           <use href={`${sprite}#star`} />
         </svg>
       </button>

@@ -10,6 +10,17 @@ const AnEthicalApproach = lazy(
 const StripeSection = lazy(
   () => import("./components/StripeSection/StripeSection")
 );
+const AboutUs = lazy(() => import("./components/AboutUs/AboutUs"));
+const OurJewelry = lazy(() => import("./components/OurJewelry/OurJewelry"));
+const Custom = lazy(() => import("./components/Custom/Custom"));
+const SecondStripeSection = lazy(
+  () => import("./components/RunningStripeSection/RunningStripeSection")
+);
+const Love = lazy(() => import("./components/Love/Love"));
+const GallerySection = lazy(
+  () => import("./components/GallerySection/GallerySection")
+);
+const Footer = lazy(() => import("./components/Footer/Footer"));
 
 function App() {
   return (
@@ -19,6 +30,13 @@ function App() {
       <Wedding />
       <AnEthicalApproach />
       <StripeSection />
+      <AboutUs />
+      <OurJewelry />
+      <Custom />
+      <SecondStripeSection />
+      <Love />
+      <GallerySection />
+      <Footer />
     </>
   );
 }
