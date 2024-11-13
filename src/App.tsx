@@ -23,9 +23,23 @@ const GallerySection = lazy(
 const Footer = lazy(() => import("./components/Footer/Footer"));
 
 function App() {
+  const handleSetActiveLink = (
+    id: string,
+    event: React.MouseEvent<HTMLAnchorElement>
+  ) => {
+    event.preventDefault();
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
+
   return (
     <>
-      <Header />
+      <Header handleSetActiveLink={handleSetActiveLink} />
       <Hero />
       <Wedding />
       <AnEthicalApproach />

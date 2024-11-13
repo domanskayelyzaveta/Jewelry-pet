@@ -1,4 +1,10 @@
-const Header = () => {
+type HeaderProps = {
+  handleSetActiveLink: (
+    id: string,
+    event: React.MouseEvent<HTMLAnchorElement>
+  ) => void;
+};
+const Header: React.FC<HeaderProps> = ({ handleSetActiveLink }) => {
   return (
     <>
       <div className="bg-backgroundGreen w-screen top-0 flex items-center justify-center gap-5 pt-2.5 pb-2.5">
@@ -9,14 +15,22 @@ const Header = () => {
           Customer Reviews
         </p>
       </div>
-      <div className="flex items-center justify-center gap-[60px] text-sm font-normal leading-[22.75px] pt-[24px] pb-[26px]">
-        <p>Engagement</p>
-        <p>Wedding</p>
-        <p>Custom</p>
-        <p>Fine Jewelry</p>
-        <p>Ethics</p>
-        <p>About</p>
-      </div>
+      <nav className="flex items-center justify-center gap-[60px] text-sm font-normal leading-[22.75px] pt-[24px] pb-[26px]">
+        <a
+          href="#engagement"
+          onClick={(e) => {
+            e.preventDefault();
+            handleSetActiveLink("wedding", e);
+          }}
+        >
+          Engagement
+        </a>
+        <a href="#wedding">Wedding</a>
+        <a href="#custom">Custom</a>
+        <a href="#fineJewelry">Fine Jewelry</a>
+        <a href="#ethics">Ethics</a>
+        <a href="#about">About</a>
+      </nav>
     </>
   );
 };

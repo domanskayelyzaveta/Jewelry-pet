@@ -1,6 +1,6 @@
 const RunningStripeSection = () => {
   return (
-    <section className="overflow-hidden whitespace-nowrap">
+    <section className="overflow-hidden whitespace-nowrap w-screen">
       <div className="animate-marquee flex justify-between">
         {Array(18)
           .fill("Check Out Our Blog")

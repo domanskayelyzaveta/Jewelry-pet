@@ -12,7 +12,7 @@ const OurJewelry = () => {
   ];
 
   return (
-    <section className="pt-12 pr-[60px] pl-[60px] pb-[50px]">
+    <section id="fineJewelry" className="pt-12 pr-[60px] pl-[60px] pb-[50px]">
       <p className="mb-[14px]">Consciously Made</p>
       <h2 className="text-center text-[42px] font-normal leading-[60px] mb-[50px]">
         Our Jewelry

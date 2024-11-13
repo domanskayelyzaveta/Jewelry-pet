@@ -4,7 +4,7 @@ import Rings from "../../images/Rings.png";
 import CustomDesign from "../../images/CustomDesign.png";
 const Wedding = () => {
   return (
-    <section className="pt-[49px] pb-[50px]">
+    <section id="wedding" className="pt-[49px] pb-[50px]">
       <div>
         <p className="mb-[14px] text-[14px] font-normal leading-[22px]">
           Handcrafted Jewelry

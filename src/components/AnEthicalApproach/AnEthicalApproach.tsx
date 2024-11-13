@@ -1,7 +1,7 @@
 import ethicalImg from "../../images/ethical.png";
 const AnEthicalApproach = () => {
   return (
-    <section className="flex flex-row">
+    <section id="ethics" className="flex flex-row">
       <img srcSet={ethicalImg} className="w-[600px] h-[570px]" />
       <div className="bg-backgroundGreen w-screen pl-[75px] pr-[75px] pt-16 pb-[57px]">
         <p className="text-[14px] font-normal leading-5 mb-[14px]">

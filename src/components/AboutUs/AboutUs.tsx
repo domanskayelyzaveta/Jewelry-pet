@@ -2,7 +2,10 @@ import photo1 from "../../images/aboutUs-ring1.png";
 import photo2 from "../../images/aboutUs-ring2.png";
 const AboutUs = () => {
   return (
-    <section className="pt-[79px] pl-[125px] pr-[125px] pb-[103px] bg-aboutUsBg">
+    <section
+      id="about"
+      className="pt-[79px] pl-[125px] pr-[125px] pb-[103px] bg-aboutUsBg"
+    >
       <h2 className="text-sm font-normal leading-6 text-center mb-[74px]">
         AboutUs
       </h2>

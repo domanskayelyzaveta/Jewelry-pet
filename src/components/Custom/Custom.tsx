@@ -2,7 +2,10 @@ import customImg from "../../images/customImg.png";
 
 const Custom = () => {
   return (
-    <section className="flex bg-backgroundGreen pt-[65px] pl-[97px] pr-[70px] pb-[50px] justify-between">
+    <section
+      id="custom"
+      className="flex bg-backgroundGreen pt-[65px] pl-[97px] pr-[70px] pb-[50px] justify-between w-screen"
+    >
       <div>
         <p className="text-center text-sm font-normal leading-6 mb-[14px]">
           Tradition in the Making

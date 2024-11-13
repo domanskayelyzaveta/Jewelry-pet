@@ -1,7 +1,7 @@
 import guysPhoto from "../../images/guys.png";
 const Love = () => {
   return (
-    <section className="flex pb-5">
+    <section className="flex pb-5 w-screen">
       <img srcSet={guysPhoto} alt="Two boys" />
       <div className="bg-blueBg pt-[64px] pr-[75px] pb-[57px] pl-[75px]">
         <p className="mb-[14px]">The Heart of It</p>
