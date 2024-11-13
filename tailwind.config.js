@@ -10,6 +10,7 @@ export default {
         buttonColor: "#CFE1E7",
         buttonWhite: "#F9F6F0",
         beigeBg: "#F0C1A6",
+        beigeBgLight: "#F8D3BA",
         additionalTextColor: "#373938",
         aboutUsBg: "#E5DFD3",
         blueBg: "#CFE1E6",
